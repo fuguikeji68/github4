@@ -96,7 +96,20 @@
         </ul>
             <script type="text/javascript" src="files/cesu.js"></script>
     </div>
-    <style>
+        <style>
+        /* 基础样式重置 */
+
+        /* 右上角链接容器 */
+
+        .top-links1 {
+            position: absolute;
+            top: 3%;
+            right: 3%;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            max-width: 40%;
+        }
 
         /* 右下角链接样式 */
 
@@ -104,7 +117,7 @@
             position: absolute;
             bottom: 8%;
             left: 5%;
-            animation: float 2s ease-in-out infinite;
+            animation: float 1s ease-in-out infinite;
         }
 
         /* 图片链接通用样式 */
@@ -142,7 +155,7 @@
 
         /* 手机端适配 */
 
-        @media (max-width: 768px) {
+        @media (max-width1: 768px) {
             .top-links1 {
                 gap: 10px;
                 max-width: 60%;
