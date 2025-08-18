@@ -109,3 +109,26 @@ body{
 	background:#bcf158c5;
 	width:144px;
 }
+.miaoinpta{
+	color:#000000;
+	font-size:26px;
+	height:53px;
+	border:2px solid #58acf1c5;
+	background:#58acf1c5;
+	text-align:center;
+	border-radius: 5px;
+	line-height:52px;
+}
+.miaoinpt1a{width:109px;}
+.miaoinpt2a{width:300px;}
+.dwa{
+	display:block;
+	color:#d44040;
+	height:57px;
+	border-radius: 5px;
+	text-align:center;
+	line-height:56px;
+	font-size:26px;
+	background:#58acf1c5;
+	width:144px;
+}
